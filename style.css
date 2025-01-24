@@ -1,0 +1,141 @@
+body {
+    font-family: "Roboto", "Asap", serif;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #3882f6;
+    font-family: inherit;
+    color: inherit;
+    border-radius: 8px;
+    border-style: none;
+    padding: 8px 24px;
+}
+
+header>img {
+    height: 200px;
+}
+
+.tile>img {
+    width: 200px;
+    height: 200px;
+    border: 4px #3882f6;
+    border-style: solid;
+    border-radius: 16px;
+}
+
+.tiletext {
+    color: #747B86;
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 48px;
+    gap: 24px;
+}
+
+a {
+    text-decoration: inherit;
+    list-style: none;
+    color: inherit;
+} 
+
+.topcontent {
+    background-color: #1f2937;
+    display: flex;
+    padding: 48px;
+    justify-content: center;
+    gap:24px;
+    align-items: center;
+}
+
+.container {
+    flex-shrink: 2;
+}
+
+.heropic {
+    height: auto;
+    object-fit: scale-down;
+    flex-basis: 500px;
+    border-radius: 8px;
+    min-width: 200px;
+    flex-shrink: 2;
+}
+
+.h1text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.h2text {
+    font-size: 32px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.lowercontent {
+    background-color: #e5e7eb;
+}
+
+.quotetext {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.attribtext {
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.calltoaction {
+    background-color: #3882f6;
+    padding: 36px 96px;
+    border-radius: 16px;
+    border-style: none;
+    margin: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bottombutton {
+    border-style: solid;
+    border-color: #f9faf8;
+    flex-shrink: 0;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 24px;
+}
+
+.tileset {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    align-items: center;
+    margin: 24px 48px;
+}
+
+.h3text {
+    color: #f9faf8;
+    font-weight: 600;
+    font-size: 24px;
+}
