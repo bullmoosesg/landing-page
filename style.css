@@ -1,7 +1,8 @@
 body {
-    font-family: "Roboto", "Asap", serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0px;
 }
 
 header {
@@ -9,6 +10,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 96px;
 }
 
 button {
@@ -18,43 +21,48 @@ button {
     border-radius: 8px;
     border-style: none;
     padding: 8px 24px;
+    margin: 16px 0px;
 }
 
 header>img {
-    height: 200px;
+    height: 100px;
 }
 
 .tile>img {
-    width: 200px;
-    height: 200px;
+    flex-basis: 200px;
+    min-width: 100px;
+    max-width: 200px;
+    height: auto;
     border: 4px #3882f6;
     border-style: solid;
     border-radius: 16px;
+    object-fit: scale-down;
 }
 
 .tiletext {
     color: #747B86;
     text-align: center;
+    margin: 8px;
 
 }
 
 ul {
     list-style: none;
     display: flex;
-    margin: 48px;
+    margin: 48px 0px;
     gap: 24px;
 }
 
 a {
     text-decoration: inherit;
     list-style: none;
-    color: inherit;
+    color: #e5e7eb;
 } 
 
 .topcontent {
     background-color: #1f2937;
     display: flex;
-    padding: 48px;
+    padding: 96px;
     justify-content: center;
     gap:24px;
     align-items: center;
@@ -77,6 +85,7 @@ a {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin: 16px 0px;
 }
 
 .h2text {
@@ -84,10 +93,12 @@ a {
     color: #1f2937;
     font-weight: 900;
     text-align: center;
+    Margin: 48px;
 }
 
 .lowercontent {
     background-color: #e5e7eb;
+    padding: 96px;
 }
 
 .quotetext {
@@ -100,6 +111,7 @@ a {
 .attribtext {
     color: #1f2937;
     font-weight: 900;
+    text-align: right;
 }
 
 .calltoaction {
@@ -107,7 +119,7 @@ a {
     padding: 36px 96px;
     border-radius: 16px;
     border-style: none;
-    margin: 48px;
+    margin: 96px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,13 +141,21 @@ footer {
 .tileset {
     display: flex;
     justify-content: center;
-    gap: 6px;
+    gap: 20px;
     align-items: center;
-    margin: 24px 48px;
+    margin: 48px 96px;
 }
 
 .h3text {
     color: #f9faf8;
     font-weight: 600;
     font-size: 24px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
 }
